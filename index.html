@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10..0,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link href="reset.css" rel="stylesheet" type="text/css"/>
+    <link href="grid.css" rel="stylesheet" type="text/css"/>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+    <title>SBC_HomePage</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container" id="header">
+            <div class="logo">
+                <img src="./Media/LogoVector.svg" alt="Logo" width="118" height="60" class="logoNav"/>
+            </div>
+            <div class="dropdown">
+                <div id="myDropdown" class="dropdown-content">
+                    <a href=""><div class="btn-nav">Who We Are</div></a>
+                    <a href=""><div class="btn-nav">Our Services<span class="navSpan">+</span></div></a>
+                    <a href=""><div class="btn-nav">Sectoral<span class="navSpan">+</span></div></a>
+                    <a href=""><div class="btn-nav">Contact</div></a>
+                </div>
+            </div>
+            <button class="dropbtn">
+                <img src="./Media/ButtonMenu.png" alt="" width="32" height="32" class="menu">
+            </button>
+        </div>
+    </header>
+    <section>
+        <div class="section1">
+            <div class="cover">
+                <div class="coverMap">
+                    <img src="./Media/CoverMap.png" alt="" height="500"/>
+                </div>
+                <h1 class="coverH1">Streamline the world of <span class="coverSpan">transport & logistics</span></h1>
+            </div>
+            <div class="rectangles">
+                <div class="container">
+                    <div class="row row-stretch">
+                        <div class="col-3 col-tb-6 col-mb-12">
+                            <div class="rectangle rectangle1">
+                                <img src="./Media/Icon1.svg" alt="" width="60" height="60" class="rectangleIcon">
+                                <h1 class="rectangleH1">Our Mission</h1>
+                                <p class="rectangleP">Our mission is to streamline the world of transport and logistics. We aim to remove the complexities and offer simple, transparent, and tailored solutions</p>
+                            </div>
+                        </div>
+                        <div class="col-3 col-tb-6 col-mb-12">
+                            <div class="rectangle rectangle2">
+                                <img src="./Media/Icon2.svg" alt="" width="64" height="53" class="rectangleIcon">
+                                <h1 class="rectangleH1">What We Do</h1>
+                                <p class="rectangleP">We specialize in a wide range of logistics services including freight forwarding, warehousing, customs clearance and supply chain management.</p>
+                            </div>
+                        </div>
+                        <div class="col-3 col-tb-6 col-mb-12">
+                            <div class="rectangle rectangle3">
+                                <img src="./Media/Icon3.svg" alt="" width="60" height="60" class="rectangleIcon">
+                                <h1 class="rectangleH1">Our Values</h1>
+                                <p class="rectangleP">- **Integrity**: We are committed to honesty and transparency in all our dealings.</p>
+                            </div>
+                        </div>
+                        <div class="col-3 col-tb-6 col-mb-12">
+                            <div class="rectangle rectangle4">
+                                <img src="./Media/Icon4.svg" alt="" width="71" height="49" class="rectangleIcon">
+                                <h1 class="rectangleH1">Why Choose Us</h1>
+                                <p class="rectangleP">With SBC Logistics Romania, you're choosing a logistics and transportation partner who is dedicated to deliver exceptional service.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section2">
+            <div class="container">
+                <div class="row" id="section2grid">
+                    <div class="col-6 col-tb-8">
+                        <div class="section2Txt">
+                            <h2 class="section2H2">WHO WE ARE</h2>
+                            <div class="infoSection2">
+                                <h1 class="section2H1">Established in 2023, our company <br><span class="section2h1Span">SBC Logistics Romania</span> is a part of the Schneckenreither Group.</h1>
+                                <p class="section2P" id="section2P1">The Group is a leading provider of innovative transport and logistics solutions and for more than 60 years has been providing reliable, efficient, and cost-efficient services to businesses all over Europe.</p>
+                                <p class="section2P">At <span class="section2P2Span">2SBC Logistics Romania</span>, we believe in:</p>
+                                <p class="section2P"><span class="section2PSpan">Integrity:</span> We are committed to honesty and transparency in all our dealings.-</p>
+                                <p class="section2P"><span class="section2PSpan">Innovation:</span> We continuously strive to improve and innovate, ensuring we stay at the forefront of logistics technology.</p>
+                                <p class="section2P"><span class="section2PSpan">Customer Satisfaction:</span> Our customers are at the heart of everything we do. We go the extra mile to exceed their expectations.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-tb-4">
+                        <aside>
+                            <img src="./Media/AsideImg.jpg" width="690" height="630" class="section2Img">
+                        </aside>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section3">
+            <div class="section3Title">
+                <h1 class="section3H1">Our Services:</h1>
+                <div class="btnSeeAll">
+                    <button type="button" class="seeAll">See All</button>
+                </div>
+            </div>
+            <div class="container">
+                <div class="swiper mySwiper"> 
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="rectangleSection3">
+                                <img src="./Media/truck.svg" alt="" width="50" height="50" class="rectangleIcon"/>
+                                <h2 class="section3h2">Road Transport</h2>
+                                <p class="section3p">Timely, Safe and Environmentally Friendly Road Transport with Trans Austria Logistics</p>
+                                <div class="btnReadMoreHide">
+                                    <button type="button" class="readMore">Read More</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="rectangleSection3">
+                                <img src="./Media/ship1.svg" alt="" width="50" height="50" class="rectangleIcon"/>
+                                <h2 class="section3h2">Sea freight Transport</h2>
+                                <p class="section3p">Timely, Safe and Environmentally Friendly Road Transport with Trans Austria Logistics</p>                       
+                                <div class="btnReadMoreHide">
+                                    <button type="button" class="readMore">Read More</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="rectangleSection3">
+                                <img src="./Media/train.svg" alt="" width="50" height="50" class="rectangleIcon"/>                    
+                                <h2 class="section3h2">Rail Transport</h2>
+                                <p class="section3p">Timely, Safe and Environmentally Friendly Road Transport with Trans Austria Logistics</p>
+                                <div class="btnReadMoreHide">
+                                    <button type="button" class="readMore">Read More</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="rectangleSection3">
+                                <img src="./Media/Airplane.svg" alt="" width="50" height="50" class="rectangleIcon"/>
+                                <h2 class="section3h2">Air freight Transport</h2>
+                                <p class="section3p">Timely, Safe and Environmentally Friendly Road Transport with Trans Austria Logistics</p>
+                                <div class="btnReadMoreHide">
+                                    <button type="button" class="readMore">Read More</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="rectangleSection3">
+                                <img src="./Media/PoliceCap.svg" alt="" width="50" height="50" class="rectangleIcon" />
+                                <h2 class="section3h2">Customs</h2>
+                                <p class="section3p">Timely, Safe and Environmentally Friendly Road Transport with Trans Austria Logistics</p>
+                                <div class="btnReadMoreHide">
+                                    <button type="button" class="readMore">Read More</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="rectangleSection3">
+                                <img src="./Media/house.svg" alt="" width="50" height="50" class="rectangleIcon"/>
+                                <h2 class="section3h2">Warehousing</h2>
+                                <p class="section3p">Timely, Safe and Environmentally Friendly Road Transport with Trans Austria Logistics</p>
+                                <div class="btnReadMoreHide">
+                                    <button type="button" class="readMore">Read More</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+        <div class="section4">
+            <div class="section4Title">
+                <h1 class="section4H1">Contact</h1>
+            </div>
+            <div class="container">
+                <div class="row row-stretch" id="section4Grid">
+                    <div class="col-5 col-tb-5 col-mb-12">
+                        <div class="section4contactInfo">
+                            <h1 class="section4col5h1">SBC Logistics Romania SRL</h1>
+                            <p class="section4p"><span class="section4Span">Head Office:</span> 4B, Gara Herastrau Street, District 2, Bucharest, Romania</p>
+                            <div class="section4phone">
+                                <p class="section4contactLinks"><span class="section4Span">Phone:</span>
+                                    <a href="tel:+40757641275" class="contactsPhone">+40 757 641 275</a>
+                                </p>
+                            </div> 
+                            <div class="section4mail">
+                                <p class="section4contactLinks"><span class="section4Span">E-mail:</span>
+                                    <a href="mailto:office@sbc-logistics.ro" class="contact-email">office@sbc-logistics.ro</a>
+                                </p>
+                            </div>
+                            <div class="section4website">
+                                <p class="section4contactLinks"><span class="section4Span">Web:</span>
+                                    <a href="http://www.sbc-logistics.ro" class="website">www.sbc-logistics.ro</a>
+                                </p>  
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-2">
+                                <div class="SMIcon">
+                                    <img src="./Media/FB.svg" alt="" width="14" height="25"/>
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="SMIcon">
+                                    <img src="./Media/Linkedin.svg" alt="" width="25" height="25"/>
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="SMIcon">
+                                    <img src="./Media/Insta.svg" alt="" width="25" height="25"/>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="map">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d2846.896663083853!2d26.10626756287105!3d44.47629088818763!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sStrada%20Gara%20Her%C4%83str%C4%83u%202%20sbc!5e0!3m2!1sen!2sro!4v1712138000043!5m2!1sen!2sro" width="600" height="450" class="googleMap" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                        <div class="btnSeeMap">
+                            <button type="button" class="seeMap">See full map</button>
+                        </div>
+                    </div>
+                    <div class="col-6 col-tb-6 col-mb-12" id="form">
+                        <div class="form">
+                            <form action="submit.php" method="get">
+                                <label for="fname">First Name:</label><br>
+                                <input type="text" name="fname" id="fname" placeholder="First Name" required><br>
+                                <label for="lname">Last Name:</label><br>
+                                <input type="text" name="lname" id="lname" placeholder="Last Name" required><br>
+                                <label for="email">E-mail:</label><br>
+                                <input type="email" name="email" id="email" placeholder="E-mail Leave your message here" required><br>
+                                <label for="phone">Phone:</label><br>
+                                <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" placeholder="07********" required><br>
+                                <label for="textarea">Message:</label><br>
+                                <textarea name="textarea" id="textarea" required>Leave your message here</textarea>
+                                <div class="row" id="formFooter">
+                                    <div class="col-8 col-tb-8">
+                                        <div class="agreement">
+                                            <input type="checkbox" name="terms" value="Agree" id="defaultCheckbox" required>
+                                            <label for="defaultCheckbox" class="checkboxLabel">
+                                                <span class="checkboxCustom"></span>
+                                                <span class="IAgreeWith">&#160;&#160;&#160;&#160;I agree with <span class="spanLabelTerms">Terms & Conditions</span></span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-4 col-tb-4 sendBtn">
+                                        <input type="submit" value="Send" class="send">
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="row footerColumn">
+                <div class="footerLogo">
+                   <img src="./Media/footerLogo.svg" alt="Logo" width="118" height="60" class="footerImg"/>
+                </div>
+                <div class="footerNav">
+                    <nav class="nav" id="footerNav">
+                        <a href=""><div class="btn-nav footerBtn">Who We Are</div></a>
+                        <a href=""><div class="btn-nav footerBtn">Our Services+</div></a>
+                        <a href=""><div class="btn-nav footerBtn">Sectoral+</div></a>
+                        <a href=""><div class="btn-nav footerBtn">Contact</div></a>
+                    </nav>
+                </div>
+                <div class="footerSMIcons">
+                    <div class="row rowSMIfooter">
+                        <div class="col-2">
+                            <div class="SMIcon greyIcon">
+                                <img src="./Media/FBFooter.svg" alt="" width="14" height="25" class="footerIcon"/>
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <div class="SMIcon greyIcon">
+                                <img src="./Media/LinkedinFooter.svg" alt="" width="25" height="25" class="footerIcon"/>
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <div class="SMIcon greyIcon">
+                                <img src="./Media/InstaFooter.svg" alt="" width="25" height="25" class="footerIcon"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="privatePolicy">
+                   <p class="footerP">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Privacy Policy&#160;&#160;&#160;&#160;   |   &#160;&#160;&#160;&#160;Terms & Conditions</p>
+                </div>
+            </div>
+        </div>
+        <div class="rights">
+            <div class="container" id="footerRights">
+                <p class="footerRights">© 2024 SBC Logistics Romania SRL. All rights reserved</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 1,
+          spaceBetween: 10,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          breakpoints: {
+            640: {
+              slidesPerView: 2,
+              spaceBetween: 20,
+            },
+            768: {
+              slidesPerView: 4,
+              spaceBetween: 40,
+            },
+            1024: {
+              slidesPerView: 6,
+              spaceBetween: 10,
+            },
+          },
+        });
+      </script>
+      <script>
+        
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function(event) {
+          if (!event.target.closest('.dropbtn')) {
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+              var openDropdown = dropdowns[i];
+              if (openDropdown.classList.contains('show')) {
+                openDropdown.classList.remove('show');
+              }
+            }
+          }
+        }
+        </script>
+            <script>
+                const textArray = ['Hello', 'Hi', 'Bonjour', 'asdad'];
+                // creating multiple elements and appending to parent element
+                let title
+                /*
+                textArray.forEach((item,index)=> {
+                    title = document.createElement('h2')
+                    title.className = 'title'
+                    title.style.fontSize = '24px'
+                    title.textContent = index + `. `+ item,
+                    document.body.appendChild(title);
+                } )
+                */
+
+                for (let i = 0; i < textArray.length; i++) {
+                    title = document.createElement('h2')
+                    title.className = 'title'
+                    title.style.fontSize = '24px'
+                    // title.textContent = textArray[i];
+                    title.innerHTML = '<p>This is a paragraph</p>';
+                    document.body.appendChild(title)
+                }
+                document.addEventListener('click', event => {
+                    if (event.target.closest('.dropbtn')) {
+                        document.querySelector("#myDropdown").classList.toggle('show');
+                        const headings = document.querySelectorAll('body > h2');
+                        // headings.forEach((heading, index)=> (index==1) ? heading.innerHTML = '' : null);
+                        headings[1].querySelector('p').innerHTML= 'Dana';
+                    }
+                })
+            </script>
+</body>
+</html>
+
+

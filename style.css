@@ -1,0 +1,1262 @@
+body {
+    max-width: 1920px;
+    padding: 0;
+    margin: 0;
+    font-family: Inter;
+
+}
+
+.header {
+    width: 100%;
+    height: 90px;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    z-index:3;
+    background-color: white;
+}
+
+#header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-sizing:border-box;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.dropdown-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.dropdown-content a:link, a:visited {
+    text-decoration: none;
+}
+
+.btn-nav {
+    font-weight: 700;
+    font-size: 16px;
+    text-align: right;
+    color: #000;
+    width: auto;
+    margin-left: 40px;
+}
+
+.navSpan {
+    color: #EE312A;
+}
+
+.dropbtn {
+    display:none;
+}
+
+.section1 {
+    margin-top: 90px;
+}
+
+.cover {
+    width: 100%;
+    height: 500px;
+    background-color: #000;
+    background-image: url("./Media/CoverImg.png");
+    position: relative;
+    text-align: center;
+    color: white;
+    background-position-x: center;
+}
+
+.coverMap {
+    display: flex;
+    justify-content: center;
+}
+
+ .coverH1 {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 400;
+    font-size: 64px;
+ }
+
+ .coverSpan {
+    font-weight: 700;
+    font-size: 96px;
+    white-space: nowrap;
+ }
+
+.rectangleIcon {
+    margin: 20px auto;
+}
+
+ .rectangles {
+    position: relative;
+    top: -70px;
+ }
+
+ .rectangle {
+    height: 100%;
+    box-sizing: border-box;
+    background-color: white;
+    padding: 40px 30px;
+    text-align: center;
+    border: 1px solid white;
+    box-shadow: 0 5px 10px 0 rgb(0,0,0,.1);
+ }
+
+ .rectangle:hover {
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+ }
+
+ .rectangleH1 {
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+ }
+
+ .rectangleP {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+ }
+
+ .section2 {
+    margin-bottom: 3%;
+ }
+
+.section2H1 {
+    margin-top: 30px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 150%;
+    color: #000;
+}
+
+.section2H2 {
+    display:flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bold;
+    color:#EE312A;
+ }
+
+ .section2H2:before {
+    content:'';
+    width:100px;
+    height:4px;
+    margin-right:10px;
+    background:#EE312A;
+ }
+
+ .section2h1Span {
+    color:#EE312A;
+ }
+ 
+ .section2P {
+    line-height: 150%;
+    margin-bottom: 20px;
+ }
+
+ #section2P1 {
+    margin: 25px 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-shadow:0 4px 4px  rgba(0, 0, 0, 0.25);
+ }
+
+.section2P2Span {
+    color: #EE312A;
+    font-weight: bold;
+}
+
+.section2PSpan {
+    font-weight: bold;
+}
+
+.section2Img {
+    max-width: 100%;
+    height: auto;
+}
+
+#section2grid {
+    justify-content: space-between;
+}
+
+.infoSection2 {
+    padding-left: 110px;
+}
+
+.section3 {
+    background-color: #242424;
+    height: 670px;
+    width: 100%;
+}
+
+.section3Title {
+    width: 100%;
+    max-width:1240px;
+    margin:auto;
+    padding: 0 20px;
+    height: 200px;
+    color:#fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.section3H1 {
+    font-weight: 400;
+    font-size: 64px;
+    text-align: center;
+    color: #fff;
+    flex-grow: 4;
+    padding-left: 165px;
+}
+
+.seeAll{
+    color: white;
+    border-radius: 8px;
+    border: none;
+    width: 120px;
+    height: 40px;
+    background: rgba(238, 49, 42, 0.25);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    text-align: center;
+}
+
+.rectangleSection3 {
+    background-color: #494949;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 15px;
+    text-align: center;
+}
+
+.section3h2 {
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    color: #fff;
+}
+
+.section3p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    text-align: center;
+    color: #fff;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-wrapper {
+    align-items: stretch;
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:auto;
+    margin-bottom: 50px;
+}
+
+.readMore {
+    border: 1px solid #ee312a;
+    border-radius: 8px;
+    width: 120px;
+    height: 40px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    text-align: center;
+    color: #fff;
+    background-color: #656565;
+    margin-top: 5px;
+}
+
+.btnReadMoreHide {
+    visibility:hidden;
+}
+
+.rectangleSection3:hover > .btnReadMoreHide {
+    visibility:visible;
+    background-color: #656565;
+}
+
+.rectangleSection3:hover {
+    display:block;
+    background-color: #656565;
+}
+
+.section4Title {
+    max-width:1240px;
+    margin:auto;
+    padding:0 20px;
+    box-sizing:border-box;
+    text-align: center;
+    height: 200px;
+    padding-top: 60px;
+}
+
+.section4H1 {
+    font-weight: 400;
+    font-size: 64px;
+    text-align: center;
+    color: #000;
+}
+
+#section4Grid {
+    justify-content: space-between;
+}
+
+.section4col5h1 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    color: #000;
+    margin-bottom: 30px;
+}
+
+
+.section4p {
+    font-weight: 400;
+    font-size: 16px;   
+    color:#000;
+    line-height: 150%;
+    margin-bottom: 30px;
+}
+
+.section4Span {
+    font-weight: 700;
+    font-size: 16px;   
+    color: #000;
+}
+
+.section4contactLinks {
+    font-weight: 400;
+    font-size: 16px;   
+    color:#EE312A;
+    line-height: 150%;
+    margin-bottom: 30px;
+}
+
+.contact-email,
+.website {
+    text-decoration: underline;
+    color: #EE312A;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.SMIcon {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    justify-content: flex-start;
+}
+
+.map {
+    margin: 20px 0;
+}
+
+.seeMap {
+    border-radius: 8px;
+    border: 1px  solid #242424;
+    width: 120px;
+    height: 40px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    text-align: center;
+    color: #656565;
+    margin-top:  5px;
+}
+
+.seeMap:hover {
+    background-color: #EE312A;
+    color:#fff;
+    border:none;
+}
+
+#form {
+    background-color: #242424;
+    padding:0 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.form {
+    padding-top: 30px;
+}
+
+input {
+    width:100%;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 225%;
+    color: #c3c3c3;
+    margin: 15px 0;
+}
+
+label {
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 225%;
+    color: #656565;
+    margin: 15px 0;
+}
+
+textarea {
+    margin: 15px 0;
+    font-family: Inter;
+    width: 100%;
+    height: 200px;
+    border-radius: 20px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 225%;
+    color: #c3c3c3;
+    padding-left: 10px;
+}
+
+#formFooter {
+    padding-bottom:  10px;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.agreement {
+    margin-top: 20px;
+}
+
+.checkboxLabel {
+    margin: 0;
+    padding: 0;
+    display:flex;
+    flex-direction: row;
+    text-align: end;
+}
+
+.checkboxCustom {
+    display:flex;
+    width: 24px;
+    height: 24px;
+    background-color: white;
+    flex:0 0 auto;
+    align-items: end;
+    text-align: end;
+}
+
+.spanLabelTerms {
+    color: #d80027;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 225%;
+    font-weight: 700;
+    text-align: end;
+}
+
+#defaultCheckbox:checked + .checkboxLabel .checkboxCustom:before {
+    content:'✓';
+    color:red;
+    font-size:30px;
+    font-weight: 700;
+}
+
+.send {
+    padding: 0;
+    margin:0;
+    font-family: 'Inter';
+    width: 200px;
+    height: 60px;
+    border-radius: 10px;
+    background: #d80027;
+    border:none;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 150%;
+    text-align: center;
+    color: #fff;
+}
+
+.sendBtn {
+    display:flex;
+    justify-content: end;
+    background-color: #242424;
+}
+
+footer {
+    width:100%;
+    background: #242424;
+    margin-top: 100px;
+    padding-top: 30px;
+}
+
+.footerColumn {
+    flex-direction:column;
+    justify-content: space-around;
+    align-items: center;
+    height: 380px;
+    padding-bottom: 30px;
+
+}
+
+.nav {
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+    height: 120px;
+}
+
+.footerBtn {
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    color: #656565;
+    margin-left: 0;
+    margin-top: px;
+
+}
+
+.footerNav a:hover {
+    text-decoration: none;
+}
+
+.footerSMIcons {
+    width: 50%;
+}
+
+.rowSMIfooter {
+    justify-content: center;
+    align-items: center;
+}
+
+.footerP {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #d9d9d9;
+}
+
+.greyIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rights {
+    border-top: 1px solid #656565;
+    height: 100px;
+}
+
+#footerRights {
+    padding-top: 40px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #656565;
+}
+
+@media all and (max-width: 1240px) {
+    .cover {
+        height: 400px;
+    }
+    
+     .coverH1 {
+        top: 40%;
+        font-size: 60px;
+     }
+    
+     .coverSpan {
+        font-size: 94px;
+     }
+    
+     .rectangle {
+        padding: 30px 30px;    
+     }
+
+     .section2H2:before { 
+        width:80px;
+     }
+    
+     .section2H1 {
+        margin-top: 25px;
+     }
+    .infoSection2 {
+        padding-left: 90px;
+    }
+    .section2P {
+        margin-top: 15px;
+        margin-bottom: 5px;
+     }
+     #section2P1 {
+        margin: 20px 0;
+     }
+    
+    .section3 {
+        height: 550px;
+    }
+    
+    .section3Title {
+        height: 180px;
+    }
+    
+    .section3H1 {
+        font-size: 60px;
+    }
+    
+    .rectangleSection3 {
+        padding: 5px;
+        text-align: center;
+    }
+
+    .section3h2 {
+        font-size: 22px;
+    }
+
+    .section4Title {
+        height: 180px;
+        padding-top: 50px;
+    }
+    
+    .send {
+        width: 160px;
+        height: 50px;
+        font-size: 20px;
+    }
+
+    .checkboxLabel {
+        line-height: 100%;
+        text-align: start;
+    }
+
+    .agreement {
+        margin-top: 0;
+    }
+}
+
+@media all and (max-width: 1024px) {
+    .header {
+        width:100%;
+        height: 70px;
+    }
+
+    #header {
+        max-width: 1024px;
+        padding: 0 20px;
+    }
+
+    .btn-nav {
+        font-size: 14px;
+        width: auto;
+        margin-left: 20px;
+    }
+    
+            
+    .section1 {
+        margin-top: 70px;
+    }
+    
+    .cover {
+        width: 100%;
+        height: 350px;
+    }
+    .coverH1 {
+        font-size: 50px;
+    }
+    
+    .coverSpan {
+        font-size: 86px;
+    }
+    
+    .col-tb-6 {
+        margin-top: 15px;
+    }
+
+    .rectangleIcon {
+        margin: 5px auto;
+    }
+    
+     .rectangle {
+        padding: 20px;
+    }
+    
+     .rectangleH1 {
+        font-size: 22px;
+     }
+    
+     .rectangleP {
+        font-size: 16px;
+     }
+
+    .section2H1 {
+        margin: 25px 0;
+        font-size: 22px;
+        line-height: 130%;
+    }
+    
+     .section2H2:before {
+        width:70px;
+        height:3px;
+     }
+     
+     .section2P {
+        line-height: 130%;
+        margin-bottom: 15px;
+     }
+    
+     #section2P1 {
+        font-size: 16px;
+        line-height: 130%;
+     }
+    
+    .infoSection2 {
+        padding-left: 80px;
+    }
+    
+    .section3 {
+        height: auto;
+        padding-bottom: 20px;
+    }
+    
+    .section3Title {
+        height: 90px;
+    }
+    
+    .section3H1 {
+        font-size: 50px;
+        padding-left: 160px;
+    }
+    
+    .rectangleSection3 {
+        padding: 10px;
+    }
+
+    .col-tb-4 {
+        margin-top: 15px;
+    }
+
+    
+    .section3h2 {
+        font-size: 20px;
+    }
+
+    .section3p {
+        font-size: 14px;
+    }
+
+    .section4Title {
+        height: 100px;
+        padding: 20px 0;
+    }
+    
+    .section4H1 {
+        font-size: 50px;
+    }
+    
+    .section4col5h1 {
+        margin-bottom: 20px;
+    }
+
+    .section4p {
+        line-height: 130%;
+        margin-bottom: 20px;
+    }
+
+    .section4contactLinks {
+        line-height: 130%;
+        margin-bottom: 20px;
+    }
+
+    .SMIcon {
+        margin: 10px 0;
+    }
+    
+    .map {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    #form {
+        padding:0 20px;
+        margin-top: 15px;
+    }
+
+    .form {
+        padding-top: 20px;
+    }
+    
+    input {
+        line-height: 200%;
+        margin: 10px 0;
+    }
+    
+    label {
+        line-height: 200%;
+        margin: 10px 0;
+    }
+    
+    textarea {
+        margin: 10px 0;
+        line-height: 200%;
+    }
+
+    #formFooter {
+        padding-bottom: 10px;
+    }
+    
+    .checkboxLabel {
+        margin-bottom: 0;
+    }
+    
+    .spanLabelTerms {
+        font-size: 14px;
+        line-height: 200%;
+    }
+    
+    .send {
+        font-size: 22px;
+    }
+    
+    footer {
+        margin-top: 40px;
+        padding-top: 10px;
+    }
+    
+    .footerColumn {
+        height: 270px;
+        padding-bottom: 5px;
+    }
+    
+    .footerBtn {
+        font-size: 14px;
+    }
+    
+    .footerP {
+        font-size: 14px;
+        line-height: 130%;
+    }
+    
+    .greyIcon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .rights {
+        height: 50px;
+    }
+    
+    #footerRights {
+        padding-top: 15px;
+        font-size: 12px;
+        line-height: 130%;
+    }
+}
+
+@media all and (max-width: 900px) {
+    .cover {
+        height: 300px;
+    }
+
+    .coverSpan {
+        font-size: 75px;
+    }
+
+    .checkboxLabel {
+        justify-content: flex-start;
+        font-size: 16px;
+        white-space: nowrap;
+        text-align: end;
+    }
+
+    .spanLabelTerms {
+        font-size: 14px;
+        line-height: 100%;
+    }
+    
+    .send {
+        width: 100px;
+        height: 40px;
+        font-weight: 400;
+        font-size: 16px;
+        margin: 0;
+    }
+
+    #formFooter {
+        margin-top: 30px
+    }
+}
+
+@media all and (max-width: 767px) { 
+    .coverH1 {
+        font-size: 30px;
+    }
+
+    .coverSpan {
+        font-size: 34px;
+    }
+
+    .header {
+        height: 50px;
+    }
+
+    .dropdown {
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
+ 
+    .dropbtn {
+        display:inline-block;
+        padding: 5px;
+        cursor: pointer;
+    }
+
+    .dropdown-content {
+        display: none;
+        flex-direction: column;
+        background-color: white;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 2;
+        position: absolute;
+        right: 20px;
+        top: 50px;
+    }
+
+    .btn-nav { 
+        width: 100px;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .show {
+        display:flex;
+    } 
+
+    .dropdown-content a {
+        color: black;
+        padding: 10px;
+        text-decoration: none;
+        display: block;
+    }
+    
+    .dropdown-content a:hover {
+        text-decoration: none;
+        background-color: #ddd;
+    }
+    
+    .dropdown-content .btn-nav {
+        font-size: 14px;
+    }
+
+    .logoNav {
+        width: 80px;
+    }
+
+    .menu {
+        width: 25px;
+    }
+
+    .section1 {
+        margin-top: 50px;
+    }
+    
+    .cover {
+        height: 200px;
+    }
+    
+     .coverH1 {
+        font-size: 36px;
+    }
+    
+     .coverSpan {
+        font-weight: 700;
+        font-size: 48px;
+     }
+    
+    .rectangleIcon {
+        margin: 10px auto;
+        width: 40px;
+    }
+
+     .rectangle {
+        padding: 20px 20px;
+    }
+
+
+     .rectangleH1 {
+        font-size: 22px;
+    }
+    
+     .rectangleP {
+        font-size: 14px;
+        line-height: 130%;
+     }
+
+    aside {
+        display: none;
+    }
+
+    .section2 {
+        display: none;
+    }
+    
+    .section3 {
+        height: auto;
+        padding-bottom: 15px;
+    }
+    
+    .section3Title {
+        height: 100px;
+    }
+    
+    .section3H1 {
+        font-weight: 400;
+        padding-left: 0;
+    }
+    
+    .seeAll{
+        width: 100px;
+    }
+    
+    .section3h2 {
+        font-size: 22px;
+    }
+    
+    .section3p {
+        line-height: 150%;
+    }
+
+    .btnReadMoreHide {
+        visibility: visible;
+    }
+    
+    .readMore {
+        width: 100px;
+        height: 30px;
+        font-size: 12px;
+        background-color:#494949;
+    }
+
+    .rectangleSection3:hover {
+        display:block;
+        background-color:#494949;
+    }
+
+    .rectangleSection3:hover > .btnReadMoreHide {
+        visibility:visible;
+        background-color: #494949;
+    }
+    
+    .section4Title {
+        padding: 15px 0;
+        height: 100px;
+    }
+    
+    .section4H1 {
+        font-size: 48px;
+    }
+    
+    #section4Grid {
+        justify-content: space-between;
+    }
+    
+    .section4col5h1 {
+        font-size: 22px;
+        margin-bottom: 15px;
+    }
+    
+    .section4p {
+        font-size: 14px;   
+        line-height: 130%;
+        margin-bottom: 15px;
+    }
+    
+    .section4Span {
+        font-size: 14px;
+    }
+    
+    .section4contactLinks {
+        font-size: 14px;   
+        line-height: 130%;
+        margin-bottom: 15px;
+    }
+
+    .SMIcon {
+        margin-top: 6px;
+        margin-bottom: 9px;
+    }
+    
+    .map {
+        margin: 15px 0;
+    }
+
+    .googleMap {
+        height: 250px;
+        width: 100%;
+    }
+    
+    .btnSeeMap {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .seeMap {
+        width: 120px;
+        height: 40px;
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    
+    .form {
+        padding-top: 15px;
+    }
+    
+    input {
+        font-size: 14px;
+        line-height: 200%;
+        margin: 10px 0;
+    }
+    
+    label {
+        font-size: 14px;
+        line-height: 200%;
+    }
+    
+    textarea {
+        height: 100px;
+        font-size: 14px;
+        line-height: 200%;
+    }
+    
+    #formFooter {
+        display: flex;
+        padding-bottom:  10px;
+    }
+
+    #defaultCheckbox {
+        margin: 0;
+    }
+    
+    .agreement {
+        margin: 0;
+        
+    }
+    
+    .checkboxLabel {
+        justify-content: flex-start;
+        text-align: center;
+    }
+
+    .spanLabelTerms {
+        font-size: 14px;
+        line-height: 200%;
+    }
+    
+    .send {
+        width: 150px;
+        height: 50px;
+        font-weight: 700;
+        font-size: 18px;
+        margin: 0;
+    }
+
+    #footerNav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer {
+        margin-top: 20px;
+        padding-top: 10px;
+    }
+    
+    .footerColumn {
+        height: 270px;
+        padding-bottom: 5px;
+    }
+    
+    .footerImg {
+        width: 80px; 
+    }
+
+    .footerBtn {
+        font-weight: 500;
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    
+    .footerSMIcons {
+        width: 50%;
+    }
+    
+    .rowSMIfooter {
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .footerP {
+        font-size: 14px;
+    }
+    
+    .rights {
+        height: 40px;
+    }
+    
+    #footerRights {
+        padding-top: 10px;
+        font-size: 12px;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .coverH1 {
+        font-size: 30px;
+    }
+
+    .coverSpan {
+        font-size: 36px;
+    }
+}
+
+@media all and (max-width: 430px) {
+    .coverH1 {
+        font-size: 30px;
+    }
+
+    .coverSpan {
+        font-size: 34px;
+    }
+    .section3H1 {
+        font-size: 34px;
+    }
+
+    #footerNav {
+        width: 100%;
+    }
+}
