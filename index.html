@@ -106,7 +106,7 @@
                 </div>
             </div>
             <div class="container">
-                <div class="swiper mySwiper"> 
+                <div class="swiper mySwiper">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <div class="rectangleSection3">
@@ -122,7 +122,7 @@
                             <div class="rectangleSection3">
                                 <img src="./Media/ship1.svg" alt="" width="50" height="50" class="rectangleIcon"/>
                                 <h2 class="section3h2">Sea freight Transport</h2>
-                                <p class="section3p">Timely, Safe and Environmentally Friendly Road Transport with Trans Austria Logistics</p>                       
+                                <p class="section3p">Timely, Safe and Environmentally Friendly Road Transport with Trans Austria Logistics</p>
                                 <div class="btnReadMoreHide">
                                     <button type="button" class="readMore">Read More</button>
                                 </div>
@@ -130,7 +130,7 @@
                         </div>
                         <div class="swiper-slide">
                             <div class="rectangleSection3">
-                                <img src="./Media/train.svg" alt="" width="50" height="50" class="rectangleIcon"/>                    
+                                <img src="./Media/train.svg" alt="" width="50" height="50" class="rectangleIcon"/>
                                 <h2 class="section3h2">Rail Transport</h2>
                                 <p class="section3p">Timely, Safe and Environmentally Friendly Road Transport with Trans Austria Logistics</p>
                                 <div class="btnReadMoreHide">
@@ -187,7 +187,7 @@
                                 <p class="section4contactLinks"><span class="section4Span">Phone:</span>
                                     <a href="tel:+40757641275" class="contactsPhone">+40 757 641 275</a>
                                 </p>
-                            </div> 
+                            </div>
                             <div class="section4mail">
                                 <p class="section4contactLinks"><span class="section4Span">E-mail:</span>
                                     <a href="mailto:office@sbc-logistics.ro" class="contact-email">office@sbc-logistics.ro</a>
@@ -196,7 +196,7 @@
                             <div class="section4website">
                                 <p class="section4contactLinks"><span class="section4Span">Web:</span>
                                     <a href="http://www.sbc-logistics.ro" class="website">www.sbc-logistics.ro</a>
-                                </p>  
+                                </p>
                             </div>
                         </div>
                         <div class="row">
@@ -326,8 +326,7 @@
           },
         });
       </script>
-      <script>
-        
+    <script>
         // Close the dropdown if the user clicks outside of it
         window.onclick = function(event) {
           if (!event.target.closest('.dropbtn')) {
@@ -341,38 +340,7 @@
             }
           }
         }
-        </script>
-            <script>
-                const textArray = ['Hello', 'Hi', 'Bonjour', 'asdad'];
-                // creating multiple elements and appending to parent element
-                let title
-                /*
-                textArray.forEach((item,index)=> {
-                    title = document.createElement('h2')
-                    title.className = 'title'
-                    title.style.fontSize = '24px'
-                    title.textContent = index + `. `+ item,
-                    document.body.appendChild(title);
-                } )
-                */
-
-                for (let i = 0; i < textArray.length; i++) {
-                    title = document.createElement('h2')
-                    title.className = 'title'
-                    title.style.fontSize = '24px'
-                    // title.textContent = textArray[i];
-                    title.innerHTML = '<p>This is a paragraph</p>';
-                    document.body.appendChild(title)
-                }
-                document.addEventListener('click', event => {
-                    if (event.target.closest('.dropbtn')) {
-                        document.querySelector("#myDropdown").classList.toggle('show');
-                        const headings = document.querySelectorAll('body > h2');
-                        // headings.forEach((heading, index)=> (index==1) ? heading.innerHTML = '' : null);
-                        headings[1].querySelector('p').innerHTML= 'Dana';
-                    }
-                })
-            </script>
+    </script>
 </body>
 </html>
 
